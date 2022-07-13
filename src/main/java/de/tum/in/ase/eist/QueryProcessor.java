@@ -12,7 +12,7 @@ public class QueryProcessor {
                     "English poet, playwright, and actor, widely regarded as the greatest " +
                     "writer in the English language and the world's pre-eminent dramatist.";
         } else if (query.contains("name")) {
-           return "Dominik;
+           return "Dominik";
         } else if (query.contains("numbers%20is%20the%20largest:%2092,%20100,%20888,%2083")){ // TODO extend the programm here
             return "888";
         }
