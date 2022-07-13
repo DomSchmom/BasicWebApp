@@ -16,5 +16,6 @@ public class QueryProcessor {
         } else if (query.contains("numbers%20is%20the%20largest:%2092,%20100,%20888,%2083")){ // TODO extend the programm here
             return "888";
         }
+        return "";
     }
 }
